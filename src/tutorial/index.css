@@ -1,8 +1,30 @@
-.video-player{
+.video_player{
   width: 100%;
+  position: relative;
 }
 
-.react-player{
+.status_container{
   width: 100%;
-  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.duration h3{
+  margin: 0;
+  color: white;
+}
+
+.backward{
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+.progress{
+  width: 90%;
 }
